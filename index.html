@@ -3,6 +3,9 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    
     <title>Beatles | Corporate Responsive Teamplated</title>
 
     <!--****************** google font & icon link part start *****************-->
@@ -25,7 +28,7 @@
 
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar">
 <!--
 **************************************************************
     header top part start
@@ -34,12 +37,12 @@
     <section id="header-top">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-6 col-sm-6">
                     <div class="well-come">
                         <p>Welcome to Beatles</p>
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6 col-sm-6">
                     <div class="icon">
                         <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                         <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
@@ -70,38 +73,42 @@
 **************************************************************            
 -->
 
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg menu fixed">
         <div class="container">
             <a class="navbar-brand" href="#">
                 <img src="images/logo.png" alt="logo">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <i class="fa fa-bars small" aria-hidden="true"></i>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Abot us</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Gallery</a>
+                        <a class="nav-link" href="#about-part">Abot us</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Testimonial</a>
+                        <a class="nav-link" href="#services-part">Services</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Blog</a>
+                        <a class="nav-link" href="#portfolio-part">Portfolio</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#team-part">Team</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonial-part">Testimonial</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#footer-part">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -206,7 +213,7 @@
                 <div class="row">
                     <div class="col-lg-5">
                         <div class="img">
-                            <img src="images/about.png" alt="">
+                            <img class="fit" src="images/about.png" alt="">
                         </div>
                     </div>
 
@@ -331,7 +338,7 @@
 
         <div class="container">
             <div class="row">
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-sm-6">
                     <div class="item">
                         <div class="img-small">
                             <img src="images/portfolio-1.png" alt="portfolio-1.png">
@@ -351,7 +358,7 @@
                 </div>
 
 
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-sm-6">
                     <div class="item">
                         <div class="img-big b2">
                             <img src="images/portfolio-3.png" alt="portfolio-3">
@@ -370,7 +377,7 @@
                 </div>
 
 
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-sm-6">
                     <div class="item">
                         <div class="img-small">
                             <img src="images/portfolio-5.png" alt="portfolio-5.png">
@@ -389,7 +396,7 @@
                 </div>
 
 
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-sm-6">
                     <div class="item">
                         <div class="img-big b2">
                             <img src="images/portfolio-7.png" alt="portfolio-7">
@@ -438,7 +445,7 @@
         
         <div class="container">
             <div class="row">
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-sm-6">
                     <div class="team">
                         <div class="img">
                             <img src="images/team-member-1.png" alt="team-member-1">
@@ -468,7 +475,7 @@
                 </div>
 
 
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-sm-6">
                     <div class="team">
                         <div class="img">
                             <img src="images/team-member-2.png" alt="team-member-2">
@@ -498,7 +505,7 @@
                 </div>
 
 
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-sm-6">
                     <div class="team">
                         <div class="img">
                             <img src="images/team-member-3.png" alt="team-member-3">
@@ -528,7 +535,7 @@
                 </div>
 
 
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-sm-6">
                     <div class="team">
                         <div class="img">
                             <img src="images/team-member-4.png" alt="team-member-4">
@@ -680,7 +687,7 @@
 <section id="footer-part">
     <div class="container">
         <div class="row">
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-sm-6">
                 <div class="item">
                     <img src="images/footer-logo.png" alt="logo">
                     <p>Lorem ipsum dolor sit amet, conser adipisicing elit, sed do eiumod apor incididunt ut labore et dolore magna aliqua.</p>
@@ -688,7 +695,7 @@
                 </div>
             </div>
             
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-sm-6">
                 <div class="item">
                     <h4>Contact us</h4>
                     <ul>
@@ -708,7 +715,7 @@
                 </div>
             </div>
             
-            <div class="col-lg-2">
+            <div class="col-lg-2 col-sm-3">
                 <div class="item">
                     <h4>Important Link</h4>
                     <ul>
@@ -732,23 +739,16 @@
                 </div>
             </div>
             
-            <div class="col-lg-4">
-                <div class="item">
+            <div class="col-lg-4 col-sm-9">
+                <div class="item item-sm">
                    <h4>Flickr Photo</h4>
-                   <ul>
-                       <li>
-                           <a href="#"><img src="images/flickr-1.png" alt=""></a>
-                           <a href="#"><img class="center" src="images/flickr-2.png" alt=""></a>
-                           <a href="#"><img src="images/flickr-3.png" alt=""></a>
-                       </li>
-                   </ul>
-                   <ul>
-                       <li>
-                           <a href="#"><img src="images/flickr-4.png" alt=""></a>
-                           <a href="#"><img class="center" src="images/flickr-5.png" alt=""></a>
-                           <a href="#"><img src="images/flickr-6.png" alt=""></a>
-                       </li>
-                   </ul>
+                   <a href="#"><img src="images/flickr-1.png" alt=""></a>
+                   <a href="#"><img src="images/flickr-2.png" alt=""></a>
+                   <a href="#"><img src="images/flickr-3.png" alt=""></a>
+                   
+                   <a href="#"><img src="images/flickr-4.png" alt=""></a>
+                   <a href="#"><img src="images/flickr-5.png" alt=""></a>
+                   <a href="#"><img src="images/flickr-6.png" alt=""></a>
                 </div>
             </div>
         </div>
@@ -762,6 +762,20 @@
 
 
 
+
+
+
+<!--
+**************************************************************
+   back to top button  part start
+**************************************************************            
+-->
+    <a class="btop" href="#"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a>
+<!--
+**************************************************************
+   back to top button  part end
+**************************************************************            
+-->
 
 
 

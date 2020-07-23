@@ -2,7 +2,7 @@
 
 $('.banner-slider').slick({
   dots: true,
-  infinite: false,
+  infinite: true,
   speed: 300,
   slidesToShow: 1,
   slidesToScroll: 1,
@@ -14,27 +14,33 @@ $('.banner-slider').slick({
     
   responsive: [
     {
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 3,
-        slidesToScroll: 3,
-        infinite: true,
-        dots: true,
-         
-      }
-    },
-    {
-      breakpoint: 600,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 2
-      }
-    },
-    {
-      breakpoint: 480,
+      breakpoint: 992,
       settings: {
         slidesToShow: 1,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        infinite: true,
+        dots: false,
+         arrows: true,
+      }
+    },
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+          autoplay: true,
+          arrows: false,
+          dots: true,
+      }
+    },
+    {
+      breakpoint: 576,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+         autoplay: true,
+         arrows: false,
+          dots: true,
       }
     }
     // You can unslick at a given breakpoint now by adding:
@@ -66,7 +72,7 @@ $(document).ready(function(){
 //*********************testimonial  part slider venubox start*********************
 $('.testimonial-slider').slick({
   dots: true,
-  infinite: false,
+  infinite: true,
   speed: 300,
   slidesToShow: 2,
   slidesToScroll: 2,
@@ -79,14 +85,17 @@ $('.testimonial-slider').slick({
         slidesToShow: 3,
         slidesToScroll: 3,
         infinite: true,
-        dots: true
+        dots: true,
       }
     },
     {
-      breakpoint: 600,
+      breakpoint: 768,
       settings: {
         slidesToShow: 2,
-        slidesToScroll: 2
+        slidesToScroll: 2,
+          dots: true,
+          dots: true,
+          infinite: true,
       }
     },
     {
@@ -101,20 +110,43 @@ $('.testimonial-slider').slick({
     // instead of a settings object
   ]
 });
-
-
 //*********************testimonial  part slider venubox end************************
 
 
 
 
+//*********************back to top button js start**********************
+
+// fixed menu js
+$(window).scroll(function(){
+  $scrollamount = $(window).scrollTop();
+  
+  if($scrollamount>500){
+    $(".menu").addClass("fixed");
+  }else{
+    $(".menu").removeClass("fixed");
+  }
+
+  // if($scrollamount>1000){
+  //   $(".btop").fadeIn();
+  // }else{
+  //   $(".btop").fadeOut();
+  // }
+
+  if($scrollamount>1000){
+    $(".btop").css("visibility","visible");
+  }else{
+    $(".btop").css("visibility","hidden");
+  }
+})
+
+$(".btop").click(function(){
+  $("html,body").animate({
+    scrollTop: 0
+  },1000)
+})
 
 
-
-
-
-
-
-
+//*********************back to top button js end************************
 
 

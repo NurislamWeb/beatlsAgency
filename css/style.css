@@ -33,10 +33,13 @@ h1,h2,h3,h4,h5,h6,p{
     font-family: 'Oswald', sans-serif;
 }
 
-
-
-
-
+.fixed{
+    position: fixed;
+    background: #F7F7F7;
+    width: 100%;
+    z-index: 9999;
+    margin-top: -44px;
+}
 /*
 **************************************************************
     all common css part end
@@ -106,10 +109,17 @@ h1,h2,h3,h4,h5,h6,p{
     color: #353535;
     transition: .4s;
     margin-left: 15px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Oswald', sans-serif;
 }
 
 .navbar ul li a:hover{
     color: #0872b9;
+}
+
+.navbar ul li .active{
+    color: #5BC5F4;
 }
 
 /*
@@ -810,8 +820,9 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 
-#footer-part .item ul li a .center{
-    margin: 0 10px;
+#footer-part .item-sm img{
+    margin-left: 10px;
+    margin-top: 10px;
 }
 
 /*
@@ -859,3 +870,44 @@ h1,h2,h3,h4,h5,h6,p{
     footer bottom part css end
 **************************************************************            
 */
+
+
+
+
+
+
+
+
+
+/*
+**************************************************************
+    back to top button part css start
+**************************************************************            
+*/
+.btop{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    background: #5BC5F4;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    transition: .4s;
+}
+
+.btop:hover{
+    background: #1DBF73;
+    color: #fff;
+
+}
+/*
+**************************************************************
+    back to top button part css start
+**************************************************************            
+*/
+
+
