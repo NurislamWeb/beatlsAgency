@@ -1,0 +1,861 @@
+/*
+**************************************************************
+    all common css part start
+**************************************************************            
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ol,ul{
+    list-style: none;
+}
+
+a,a:hover{
+    text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+}
+
+.title{
+    text-align: center;
+}
+
+.title h4{
+    color: #353535;
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+
+
+
+/*
+**************************************************************
+    all common css part end
+**************************************************************            
+*/
+
+
+
+
+
+/*
+**************************************************************
+    header top part css start
+**************************************************************            
+*/
+#header-top{
+    width: 100%;
+    background: #0872b9;
+    padding: 10px 0;
+}
+
+#header-top .well-come{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+}
+
+#header-top .icon{
+    text-align: right;
+}
+
+
+#header-top .icon a i{
+    color: #fff;
+    margin: 0 20px;
+    margin: 0 15px;
+    transition: .4s;
+}
+
+#header-top .icon a i:hover{
+    color: #353535;
+}
+/*
+**************************************************************
+    header top part css end
+**************************************************************            
+*/
+
+
+
+
+
+
+
+
+
+/*
+**************************************************************
+    navbar part css start
+**************************************************************            
+*/
+.navbar ul {
+    padding: 20px 0;
+}
+.navbar ul li a{
+    color: #353535;
+    transition: .4s;
+    margin-left: 15px;
+}
+
+.navbar ul li a:hover{
+    color: #0872b9;
+}
+
+/*
+**************************************************************
+    navbar part css end
+**************************************************************            
+*/
+
+
+
+
+
+
+
+
+
+
+
+/*
+**************************************************************
+    banner part css start
+**************************************************************            
+*/
+#banner-part{
+    width: 100%;
+}
+
+#banner-part .banner{
+    width: 100%;
+    background: url(../images/banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#banner-part .banner .overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .6);
+    padding: 160px 0;
+    color: #fff;
+    text-align: right;
+        
+}
+
+#banner-part .banner .overlay .text-box h4{
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+
+#banner-part .banner .overlay .text-box h1{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+
+#banner-part .banner .overlay .text-box p{
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 562px;
+    padding-bottom: 50px;
+}
+
+#banner-part .banner .overlay .text-box a{
+    padding: 10px 20px;
+    background: #0872b9;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    margin-left: 20px;
+    transition: .4s;
+    border: 1px solid #0872b9;
+}
+
+#banner-part .banner .overlay .text-box a:hover{
+    background: transparent;
+    border: 1px solid #fff;
+}
+
+.banner-slider{
+    position: relative;
+}
+
+.banner-slider .prev{
+    width: 50px;
+    height: 50px;
+    background: #0872B9;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    z-index: 1;
+}
+
+
+.banner-slider .next{
+    width: 50px;
+    height: 50px;
+    background: #0872B9;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    z-index: 1;
+}
+
+/*
+**************************************************************
+    banner part css end
+**************************************************************            
+*/
+
+
+
+
+
+
+/*
+**************************************************************
+    about part css start
+**************************************************************            
+*/
+#about-part{
+    padding: 60px 0;
+}
+
+#about-part .title .about{
+    margin-top: -20px;
+    margin-left: -32px;
+}
+
+
+#about-part .img{
+    padding-top: 50px;
+}
+
+#about-part .text p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+    color: #555555;
+    margin-top: 40px;
+}
+/*
+**************************************************************
+    about part css end
+**************************************************************            
+*/
+
+
+
+
+
+
+
+
+
+
+/*
+**************************************************************
+    services  part css start
+**************************************************************            
+*/
+#services-part{
+    padding: 60px 0;
+}
+
+#services-part .title .services{
+    margin-top: -20px;
+    margin-left: -65px;
+}
+
+#services-part .item{
+    width: 100%;
+    background: #f1f1f1;
+    margin-top: 70px;
+    transition: .4s;
+}
+
+#services-part .item:hover{
+    box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+}
+
+#services-part .item .circle{
+    width: 80px;
+    height: 80px;
+    background: #fff;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 20px;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#services-part .item .circle .img-box{
+    width: 70px;
+    height: 70px;
+    border: 1px solid #dfdfdf;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .4s;
+}
+
+#services-part .item .circle .img-box .img{
+    width: 60px;
+    height: 60px;
+    background: #f1f1f1;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 60px;
+    transition: .4s;
+}
+
+#services-part .item:hover .circle .img-box{
+    border: 1px solid #5bc5f4;
+}
+
+#services-part .item:hover .circle .img-box .img{
+    background: #5bc5f4;
+}
+
+#services-part .item .text{
+    width: 100%;
+    padding: 0 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    padding-top: 60px;
+}
+
+#services-part .item .text h4{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Oswald', sans-serif;
+}
+
+#services-part .item .text p{
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 20px;
+}
+
+
+/*
+**************************************************************
+    services  part css end
+**************************************************************            
+*/
+
+
+
+
+
+
+
+
+/*
+**************************************************************
+    portfolio  part css start
+**************************************************************            
+*/
+#portfolio-part{
+    padding: 60px 0;
+}
+
+#portfolio-part .title .portfolio{
+    margin-top: -20px;
+    margin-left: -80px;
+}
+
+
+#portfolio-part .item{
+    width: 100%;
+    margin-top: 30px;
+}
+
+#portfolio-part .img-small{
+    width: 100%;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+#portfolio-part .img-small .overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .4s;
+    opacity: 0;
+}
+
+#portfolio-part .img-small .overlay:hover{
+    opacity: 1;
+}
+
+#portfolio-part .img-small .overlay i{
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    background: #5bc5f4;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    
+}
+
+#portfolio-part .img-small img{
+    width: 100%;
+    height: 100%;
+}
+
+
+#portfolio-part .img-big{
+    width: 100%;
+    position: relative;
+    
+}
+
+#portfolio-part .img-big .overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .6);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#portfolio-part .img-big .overlay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .4s;
+    opacity: 0;
+}
+
+#portfolio-part .img-big .overlay:hover{
+    opacity: 1;
+}
+
+
+#portfolio-part .img-big .overlay i{
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    background: #5bc5f4;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+}
+
+#portfolio-part .img-big img{
+    width: 100%;
+    height: 100%;
+}
+
+#portfolio-part .s2{
+    margin-bottom: 0;
+}
+
+#portfolio-part .b2{
+    margin-bottom: 20px;
+}
+/*
+**************************************************************
+    portfolio  part css end
+**************************************************************            
+*/
+
+
+
+
+
+
+
+/*
+**************************************************************
+    team  part css start
+**************************************************************            
+*/
+#team-part{
+    padding: 60px 0;
+}
+
+#team-part .title .team{
+    margin-top: -20px;
+    margin-left: -30px;
+}
+
+
+
+#team-part .team .img{
+    width: 100%;
+    position: relative;
+    transition: .4s;
+}
+
+#team-part .team .img:hover{
+    box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+}
+
+#team-part .team .img .overlay{
+    height: 100%;
+    background: rgba(0, 0, 0, .6);
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 35px 20px;
+    transition: .4s;
+    opacity: 0;
+}
+
+#team-part .team:hover .img .overlay{
+    opacity: 1;
+}
+
+#team-part .team .img .overlay ul li a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #fff;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    transition: .4s;
+    margin: 10px 0;
+} 
+
+#team-part .team .img .overlay ul li a:hover{
+    background: #5bc5f4;
+    border: 1px solid #5bc5f4;
+}
+
+#team-part .team .img img{
+    width: 100%;
+    height: 100%;
+}
+
+#team-part .team .text{
+    width: 100%;
+    text-align: center;
+    padding-top: 15px;
+}
+
+#team-part .team .text h4{
+    font-size: 16px;
+    font-weight: 500;
+    color: #353535;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    transition: .4s;
+}
+
+#team-part .team:hover .text h4{
+    color: #66c9f5;
+}
+
+#team-part .team .text p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #353535;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase; 
+}
+/*
+**************************************************************
+    team  part css end
+**************************************************************            
+*/
+
+
+
+
+
+
+
+/*
+**************************************************************
+    testiminial  part css start
+**************************************************************            
+*/
+#testimonial-part{
+    padding: 60px 0;
+}
+
+#testimonial-part .title .testi{
+    margin-top: -20px;
+    margin-left: -62px;
+}
+
+#testimonial-part .testimonial{
+    width: 90%;
+    color: #fff;
+    text-align: center;
+    margin: 0 20px;
+}
+
+#testimonial-part .testimonial .img{
+    display: flex;
+    justify-content: center;
+}
+
+#testimonial-part .testimonial .text-box{
+    background: #f1f1f1;
+    padding: 20px;
+    margin-top: 30px;
+    position: relative;
+}
+
+#testimonial-part .testimonial .text-box h4{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Oswald', sans-serif;
+    color: #353535;
+    text-transform: uppercase;
+}
+
+#testimonial-part .testimonial .text-box i{
+    color: #5bc5f4;
+}
+
+#testimonial-part .testimonial .text-box h5{
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+    color: #636363;
+}
+
+#testimonial-part .testimonial .text-box p{
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+    color: #636363;
+}
+
+#testimonial-part .testimonial .text-box .triangle-up{
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid #f1f1f1;
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%); 
+}
+
+#testimonial-part ul li{
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+#testimonial-part ul li button{
+    font-size: 0;
+    width: 15px;
+    height: 15px;
+    background: #5bc5f4;
+    border-radius: 50%;
+    outline: 0;
+}
+
+.testimonial-slider{
+    text-align: center;
+}
+
+/*
+**************************************************************
+    testiminial  part css end
+**************************************************************            
+*/
+
+
+
+
+
+
+
+
+
+
+/*
+**************************************************************
+    footer part css start
+**************************************************************            
+*/
+#footer-part{
+    padding: 60px;
+    background: #353535;
+}
+
+#footer-part .item{
+    width: 100%;
+}
+
+#footer-part .item p{
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    padding-top: 30px;
+}
+
+#footer-part .item h4{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+    padding-bottom: 50px;
+}
+
+#footer-part .item ul{
+    display: flex;
+    padding: 0;
+}
+
+#footer-part .item ul li{
+    color: #fff;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+}
+
+#footer-part .item ul li i{
+    width: 35px;
+    height: 35px;
+    background: #5bc5f4;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 35px;
+    color: #fff;
+    font-size: 16px;
+}
+
+#footer-part .item ul .phone{
+    width: 100px;
+    margin-left: 10px;
+    margin-top: -3px;
+}
+
+
+#footer-part .item ul .mail{
+    width: 100px;
+    margin-left: 10px;
+    margin-top: -3px;
+}
+
+#footer-part .item ul .web{
+    width: 100px;
+    margin-left: 10px;
+    margin-top: -3px;
+}
+
+#footer-part .item ul li a{
+    color: #fff;
+    transition: .4s;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#footer-part .item ul li a:hover{
+    color: #5bc5f4;
+}
+
+#footer-part .item ul .gap{
+    margin-left: 50px;
+}
+
+#footer-part .item ul .gap-price{
+    margin-left: 66px;
+}
+
+
+#footer-part .item ul li a .center{
+    margin: 0 10px;
+}
+
+/*
+**************************************************************
+    footer part css end
+**************************************************************            
+*/
+
+
+
+
+
+
+/*
+**************************************************************
+    footer bottom part css start
+**************************************************************            
+*/
+#footer-bottom{
+    padding: 17px;
+    background: #555555;
+}
+
+#footer-bottom .copyright{
+    text-align: center;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#footer-bottom .copyright p a{
+    font-size: 14px;
+    font-family: 'Oswald', sans-serif;
+    transition: .4s;
+    color: #5bc5f4;
+}
+
+#footer-bottom .copyright p a:hover{
+    color: #fff;
+}
+
+/*
+**************************************************************
+    footer bottom part css end
+**************************************************************            
+*/
