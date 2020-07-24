@@ -271,6 +271,14 @@ h1,h2,h3,h4,h5,h6,p{
     padding-top: 50px;
 }
 
+#about-part .img img{
+    width: 100%;
+}
+
+#about-part .text{
+    padding-top: 70px;
+}
+
 #about-part .text p{
     font-size: 14px;
     font-weight: 400;

@@ -94,6 +94,10 @@
     .img .fit{
         width: 100%;
     }
+    
+    #about-part .text{
+        padding-top: 0;
+    }
 /*    ********** about part end *********/
     
     
@@ -166,14 +170,6 @@
 ***********************************************************
     extra small device responsive end (320px-575)
 ************************************************************/
-
-
-
-
-
-
-
-
 
 
 
@@ -276,6 +272,10 @@
     .img .fit{
         width: 100%;
     }
+    
+    #about-part .text{
+        padding-top: 0;
+    }
 /*    ********** about part end *********/
     
     
@@ -333,22 +333,15 @@
         font-size: 15px;
     }
     
-   
 /*    ********** footer part end *********/
-    
-    
-
+}
 /*
 ***********************************************************
     small device responsive end (576px-767px)
 ************************************************************/
     
     
-    
-    
-    
-    
-    
+
     
     
     
@@ -357,9 +350,9 @@
     
 /*
 ***********************************************************
-    medium device responsive start (768px-991)
-************************************************************/
-@media (min-width: 768px) and (max-width: 991px){
+    medium device responsive start (768px-991px)
+************************************************************/ 
+   @media (min-width: 768px) and (max-width: 991px){
     
 /*    ********** header top part start *********/
     .small{
@@ -395,14 +388,11 @@
     
     
 /*    ********** banner part start *********/
-    #banner-part .banner .overlay{
-        text-align: center;
-    }
+       #banner-part .banner .overlay .text-box p{
+           padding-left: 318px;
+       }
     
-    #banner-part .banner .overlay .text-box{
-        text-align: center;
-    }
-    
+   
     #banner-part .banner .overlay .text-box h1{
         font-size: 30px;
     }
@@ -443,10 +433,16 @@
     .text{
         text-align: center;
     }
+       
     
-    .img .fit{
-        width: 100%;
-    }
+       #about-part .text{
+           padding-top: 0;
+       } 
+       
+       #about-part .text p{
+           margin-top: 5px;
+       }  
+    
 /*    ********** about part end *********/
     
     
@@ -504,13 +500,195 @@
         font-size: 15px;
     }
     
-   
 /*    ********** footer part end *********/
-    
-    
-
+    }
 /*
 ***********************************************************
-    small device responsive end (768px-991)
-************************************************************/
+    medium device responsive end (768px-991px)
+************************************************************/    
+    
+    
+    
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+/*
+***********************************************************
+    large device responsive start (992px-1199px)
+************************************************************/ 
+   @media (min-width: 992px) and (max-width: 1199px){
+    
+/*    ********** header top part start *********/
+    .small{
+        background: #5BC5F4;
+        padding: 10px;
+        color: #fff;
+        font-size: 16px;
+    }
+    
+    #header-top .icon a i{
+        margin: 0 4px;
+    }
+/*    ********** header top part end *********/
+    
+    
+    
+/*    ********** navbar part start *********/
+    .navbar ul{
+        text-align: center;
+    }
+    
+    .small{
+        background: #5BC5F4;
+        padding: 10px;
+        color: #fff;
+        font-size: 16px;
+    }
+    
+    .fixed{
+        margin-top: -44px;
+    }
+/*    ********** navbar part end *********/
+    
+    
+/*    ********** banner part start *********/
+       #banner-part .banner .overlay .text-box p{
+           padding-left: 318px;
+       }
+    
+   
+    #banner-part .banner .overlay .text-box h1{
+        font-size: 30px;
+    }
+    
+    #banner-part .banner .overlay{
+        padding: 50px 0;
+    }
+    
+    #banner-part ul li{
+        display: inline-block;
+    }
+    
+    
+    #banner-part ul li button{
+        font-size: 0;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background: #5BC5F4;
+        outline: o;
+    }
+    
+    .banner-slider{
+        text-align: center;
+    }
+/*    ********** banner part end *********/
+    
+    
+/*    ********** about part start *********/
+    #about-part{
+        padding: 30px 0;
+    }
+    
+    #about-part .img{
+        padding: 0;
+    }
+    
+    .text{
+        text-align: center;
+    }
+       
+    
+       #about-part .text{
+           padding-top: 0;
+       } 
+       
+       #about-part .text p{
+           margin-top: 5px;
+       }  
+    
+/*    ********** about part end *********/
+    
+    
+    
+/*    ********** services part start *********/
+    #services-part{
+        padding: 30px 0;
+    }
+/*    ********** services part end *********/
+    
+    
+    
+/*    ********** portfolio part start *********/
+    #portfolio-part{
+        padding: 30 0;
+    }
+/*    ********** portfolio part end *********/
+    
+    
+    
+/*    ********** team part start *********/
+    #team-part{
+        padding: 30px 0;
+    }
+    
+    #team-part .team{
+        padding-top: 20px;
+    } 
+/*    ********** team part end *********/
+    
+    
+    
+/*    ********** testimonial part end *********/
+    #testimonial-part{
+        padding: 30px 0;
+    }
+/*    ********** testimonial part end *********/
+    
+    
+    
+/*    ********** footer part end *********/
+    #footer-part .item{
+        margin-top: 50px;
+    }
+    
+    #footer-part .item ul .gap-price{
+        margin-left: 22px;
+    }
+    
+    #footer-part .item ul .gap{
+        margin-left: 10px;
+    }
+    
+    #footer-part .item h4{
+        font-size: 15px;
+    }
+    
+/*    ********** footer part end *********/
+    }
+/*
+***********************************************************
+    large device responsive end (992px-1199px)
+************************************************************/    
+    
+    
+    
+    
+    
+    
+    
+    
+ 

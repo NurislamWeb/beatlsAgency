@@ -21,6 +21,7 @@ $('.banner-slider').slick({
         infinite: true,
         dots: false,
          arrows: true,
+          padding: 0,
       }
     },
     {
@@ -80,12 +81,13 @@ $('.testimonial-slider').slick({
     autoplay: true,
   responsive: [
     {
-      breakpoint: 1024,
+      breakpoint: 992,
       settings: {
-        slidesToShow: 3,
-        slidesToScroll: 3,
+        slidesToShow: 2,
+        slidesToScroll: 2,
         infinite: true,
         dots: true,
+          autoplay: true,
       }
     },
     {
